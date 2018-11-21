@@ -9,6 +9,32 @@
     "backgroudTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChar",
-    "navigationBarTextStyle": "black"
-  }
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "text": "首页",                    
+        "pagePath": "pages/index/index",
+        "iconPath": "./common/img/mang.png",
+        "selectedIconPath": "./common/img/mang_color.png"
+      },
+      {
+        "text": "日志",
+        "pagePath": "pages/logs/logs",
+        "iconPath": "./common/img/mang.png",
+        "selectedIconPath": "./common/img/mang_color.png"
+      },
+      {
+        "text": "视频",
+        "pagePath": "pages/movie/movie",
+        "iconPath": "./common/img/mang.png",
+        "selectedIconPath": "./common/img/mang_color.png"
+      }
+    ]
+  },
+  "debug": false
 }
