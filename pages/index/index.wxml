@@ -1,2 +1,17 @@
 <!--pages/index/index.wxml-->
-<text>这是首页</text>
+<view class="container">
+	<view>{{name}}</view>
+	<view>{{people.n1> people.n2? 'n1da': 'n2da'}}</view>
+	<view wx:for="{{names}}" wx:key="{{item.id}}">{{item.name}}</view>
+	<block wx:if="{{score > 80}}">
+		<text>大于80</text>
+	</block>
+	<block wx:else="{{score < 80}}">
+		<text>小于80</text>
+	</block>
+	<block wx:for="{{names}}">
+		<view wx:if="{{item.id > 2}}">{{item.name + '大于2啦'}}</view>
+		<view wx:if="{{item.id <=2}}">{{item.id + '小于等于2啦'}}</view>
+	</block>
+</view>
+

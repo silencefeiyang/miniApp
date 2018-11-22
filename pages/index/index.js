@@ -1,11 +1,23 @@
 // pages/index/index.js
+
+let arr = ['1','2','3']
+let arr2 = [
+  {id:1,name:'xiaohua'},
+  {id:2,name:'xiaocui'},
+  {id:3,name: 'xiaolan'}
+]
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    names : arr2,
+    people: {
+      n1: 1,
+      n2: 2
+    },
+    score: 100
   },
 
   /**
