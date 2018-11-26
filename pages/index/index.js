@@ -12,32 +12,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    names : arr2,
-    people: {
-      n1: 1,
-      n2: 2
-    },
+    num: '',
+    wxsStr:'Matt,Moli,Cheery',
     score: 100
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
+  getInputValue(ev){
+    console.log(ev.detail.value)
   },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  recevieNum(ev){
+    this.setData({
+      num:ev.detail
+    })
   }
 })

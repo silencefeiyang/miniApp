@@ -1,1 +1,8 @@
 /* pages/index/index.wxss */
+page{
+    height: 100%;
+    background-color: rgb(106, 148, 236);
+}
+input{
+    border:1rpx solid #000;
+}

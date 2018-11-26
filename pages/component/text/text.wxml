@@ -1,0 +1,5 @@
+<view class="text">
+    <text>{{nowIn}}</text>
+    <text>{{magicNum}}</text>
+    <button  id="child" bind:touchstart="onTab">点击我改变数字</button>
+</view>

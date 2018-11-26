@@ -1,0 +1,4 @@
+function create(str){
+    return str.split(',')
+}
+module.exports = create
