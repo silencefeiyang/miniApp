@@ -1,2 +1,6 @@
 <!--pages/logs/logs.wxml-->
 <text>这是日志页</text>
+<view bind:touchstart="toIndex">去首页</view>
+<button bind:touchstart="getStorage">获取存储的名字</button>
+<view>{{name}}</view>
+<view bind:touchstart="ontest">展示模态框</view>

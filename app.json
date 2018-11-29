@@ -2,8 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/movie/movie",
-    "pages/logs/logs"
- 
+    "pages/logs/logs",
+    "pages/about/about"
   ],
   "window":{
     "backgroudTextStyle": "light",

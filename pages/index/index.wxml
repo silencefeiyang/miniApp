@@ -3,5 +3,10 @@
 <view class="container">
 		<custom-component now-in="herePros" bind:sendMagicNum="recevieNum"></custom-component>
 		<text>我是改变后的值{{num}}</text>
+		<view>首页</view>
+		<navigator url="/pages/about/about" open-type="navigate">about</navigator>
+		<navigator url="/pages/logs/logs" open-type="switchTab">点击跳转到日志这个tab</navigator>
+    <button open-type="getUserInfo" bindgetuserinfo="ongetUserInfo">获取用户信息</button>
+    <button bind:touchstart="getOtherInfo">获取其他信息</button>
 </view>
 

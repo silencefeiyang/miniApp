@@ -23,5 +23,19 @@ Page({
     this.setData({
       num:ev.detail
     })
+  },
+  ongetUserInfo(){
+
+  },
+  getOtherInfo(){
+    wx.authorize({
+      scope: '',
+      success: res=>{
+        console.log(res)
+      },
+      fail:res=>{
+        console.log(res)
+      }
+    })
   }
 })
