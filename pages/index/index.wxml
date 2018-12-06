@@ -9,5 +9,8 @@
     <button open-type="getUserInfo" bindgetuserinfo="ongetUserInfo">获取用户信息</button>
     <button bind:touchstart="getOtherInfo">获取其他信息</button>
 	<view>222222</view>
+	<view class="" hover-class="none" hover-stop-propagation="false">
+		33333
+	</view>
 </view>
 
