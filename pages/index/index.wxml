@@ -12,5 +12,6 @@
 	<view class="" hover-class="none" hover-stop-propagation="false">
 		here is sec test
 	</view>
+	<text>感受下氛围</text>
 </view>
 
