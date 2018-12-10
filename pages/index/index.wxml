@@ -10,7 +10,7 @@
     <button bind:touchstart="getOtherInfo">获取其他信息</button>
 	<view>222222</view>
 	<view class="" hover-class="none" hover-stop-propagation="false">
-		here is test
+		here is sec test
 	</view>
 </view>
 
